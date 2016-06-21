@@ -1,0 +1,347 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B73E9311D184B5500273D5D /* defaultimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B73E9301D184B5500273D5D /* defaultimage.png */; };
+		0B73E9361D18817000273D5D /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73E9351D18817000273D5D /* Entry.swift */; };
+		0B73E9381D1887FE00273D5D /* PersistanceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73E9371D1887FE00273D5D /* PersistanceManager.swift */; };
+		0B73E93A1D1888F400273D5D /* EntriesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B73E9391D1888F400273D5D /* EntriesController.swift */; };
+		0BB97BC81D17F7E100165EB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB97BC71D17F7E100165EB9 /* AppDelegate.swift */; };
+		0BB97BCF1D17F7E100165EB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97BCE1D17F7E100165EB9 /* Assets.xcassets */; };
+		0BB97BD21D17F7E100165EB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97BD01D17F7E100165EB9 /* LaunchScreen.storyboard */; };
+		0BB97BDC1D17F81F00165EB9 /* LandingScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB97BDA1D17F81F00165EB9 /* LandingScreenViewController.swift */; };
+		0BB97BDD1D17F81F00165EB9 /* LandingScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97BDB1D17F81F00165EB9 /* LandingScreenViewController.xib */; };
+		0BB97BE01D17FAAF00165EB9 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB97BDE1D17FAAF00165EB9 /* MainScreenViewController.swift */; };
+		0BB97BE11D17FAAF00165EB9 /* MainScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97BDF1D17FAAF00165EB9 /* MainScreenViewController.xib */; };
+		0BB97BE31D18026D00165EB9 /* IMG_8258.png in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97BE21D18026D00165EB9 /* IMG_8258.png */; };
+		0BB97C041D181FB200165EB9 /* NewEntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB97C021D181FB200165EB9 /* NewEntryViewController.swift */; };
+		0BB97C051D181FB200165EB9 /* NewEntryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97C031D181FB200165EB9 /* NewEntryViewController.xib */; };
+		0BB97C081D18207700165EB9 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BB97C061D18207700165EB9 /* ProfileViewController.swift */; };
+		0BB97C091D18207700165EB9 /* ProfileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0BB97C071D18207700165EB9 /* ProfileViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B73E9301D184B5500273D5D /* defaultimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = defaultimage.png; path = ../../Downloads/defaultimage.png; sourceTree = "<group>"; };
+		0B73E9351D18817000273D5D /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		0B73E9371D1887FE00273D5D /* PersistanceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistanceManager.swift; sourceTree = "<group>"; };
+		0B73E9391D1888F400273D5D /* EntriesController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntriesController.swift; sourceTree = "<group>"; };
+		0BB97BC41D17F7E100165EB9 /* Ephemeris - Daily Journal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ephemeris - Daily Journal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BB97BC71D17F7E100165EB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0BB97BCE1D17F7E100165EB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0BB97BD11D17F7E100165EB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0BB97BD31D17F7E100165EB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BB97BDA1D17F81F00165EB9 /* LandingScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingScreenViewController.swift; sourceTree = "<group>"; };
+		0BB97BDB1D17F81F00165EB9 /* LandingScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingScreenViewController.xib; sourceTree = "<group>"; };
+		0BB97BDE1D17FAAF00165EB9 /* MainScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
+		0BB97BDF1D17FAAF00165EB9 /* MainScreenViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainScreenViewController.xib; sourceTree = "<group>"; };
+		0BB97BE21D18026D00165EB9 /* IMG_8258.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = IMG_8258.png; path = ../../Downloads/IMG_8258.png; sourceTree = "<group>"; };
+		0BB97C021D181FB200165EB9 /* NewEntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewEntryViewController.swift; sourceTree = "<group>"; };
+		0BB97C031D181FB200165EB9 /* NewEntryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NewEntryViewController.xib; sourceTree = "<group>"; };
+		0BB97C061D18207700165EB9 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		0BB97C071D18207700165EB9 /* ProfileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProfileViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0BB97BC11D17F7E100165EB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B73E9321D187DB800273D5D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0B73E9351D18817000273D5D /* Entry.swift */,
+				0B73E9371D1887FE00273D5D /* PersistanceManager.swift */,
+				0B73E9391D1888F400273D5D /* EntriesController.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		0BB97BBB1D17F7E000165EB9 = {
+			isa = PBXGroup;
+			children = (
+				0BB97BE21D18026D00165EB9 /* IMG_8258.png */,
+				0B73E9301D184B5500273D5D /* defaultimage.png */,
+				0BB97BD91D17F80400165EB9 /* Screens */,
+				0B73E9321D187DB800273D5D /* Models */,
+				0BB97BC61D17F7E100165EB9 /* Ephemeris - Daily Journal */,
+				0BB97BC51D17F7E100165EB9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0BB97BC51D17F7E100165EB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0BB97BC41D17F7E100165EB9 /* Ephemeris - Daily Journal.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0BB97BC61D17F7E100165EB9 /* Ephemeris - Daily Journal */ = {
+			isa = PBXGroup;
+			children = (
+				0BB97BC71D17F7E100165EB9 /* AppDelegate.swift */,
+				0BB97BCE1D17F7E100165EB9 /* Assets.xcassets */,
+				0BB97BD01D17F7E100165EB9 /* LaunchScreen.storyboard */,
+				0BB97BD31D17F7E100165EB9 /* Info.plist */,
+			);
+			path = "Ephemeris - Daily Journal";
+			sourceTree = "<group>";
+		};
+		0BB97BD91D17F80400165EB9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				0BB97BDA1D17F81F00165EB9 /* LandingScreenViewController.swift */,
+				0BB97BDB1D17F81F00165EB9 /* LandingScreenViewController.xib */,
+				0BB97BDE1D17FAAF00165EB9 /* MainScreenViewController.swift */,
+				0BB97BDF1D17FAAF00165EB9 /* MainScreenViewController.xib */,
+				0BB97C021D181FB200165EB9 /* NewEntryViewController.swift */,
+				0BB97C031D181FB200165EB9 /* NewEntryViewController.xib */,
+				0BB97C061D18207700165EB9 /* ProfileViewController.swift */,
+				0BB97C071D18207700165EB9 /* ProfileViewController.xib */,
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0BB97BC31D17F7E100165EB9 /* Ephemeris - Daily Journal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0BB97BD61D17F7E100165EB9 /* Build configuration list for PBXNativeTarget "Ephemeris - Daily Journal" */;
+			buildPhases = (
+				0BB97BC01D17F7E100165EB9 /* Sources */,
+				0BB97BC11D17F7E100165EB9 /* Frameworks */,
+				0BB97BC21D17F7E100165EB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ephemeris - Daily Journal";
+			productName = "Ephemeris - Daily Journal";
+			productReference = 0BB97BC41D17F7E100165EB9 /* Ephemeris - Daily Journal.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0BB97BBC1D17F7E000165EB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Abdulghafar Al Tair";
+				TargetAttributes = {
+					0BB97BC31D17F7E100165EB9 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = UQENDZ9K8Y;
+					};
+				};
+			};
+			buildConfigurationList = 0BB97BBF1D17F7E000165EB9 /* Build configuration list for PBXProject "Ephemeris - Daily Journal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0BB97BBB1D17F7E000165EB9;
+			productRefGroup = 0BB97BC51D17F7E100165EB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0BB97BC31D17F7E100165EB9 /* Ephemeris - Daily Journal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0BB97BC21D17F7E100165EB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB97C091D18207700165EB9 /* ProfileViewController.xib in Resources */,
+				0BB97BD21D17F7E100165EB9 /* LaunchScreen.storyboard in Resources */,
+				0BB97BE11D17FAAF00165EB9 /* MainScreenViewController.xib in Resources */,
+				0B73E9311D184B5500273D5D /* defaultimage.png in Resources */,
+				0BB97C051D181FB200165EB9 /* NewEntryViewController.xib in Resources */,
+				0BB97BDD1D17F81F00165EB9 /* LandingScreenViewController.xib in Resources */,
+				0BB97BCF1D17F7E100165EB9 /* Assets.xcassets in Resources */,
+				0BB97BE31D18026D00165EB9 /* IMG_8258.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0BB97BC01D17F7E100165EB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B73E93A1D1888F400273D5D /* EntriesController.swift in Sources */,
+				0B73E9361D18817000273D5D /* Entry.swift in Sources */,
+				0BB97BDC1D17F81F00165EB9 /* LandingScreenViewController.swift in Sources */,
+				0BB97BC81D17F7E100165EB9 /* AppDelegate.swift in Sources */,
+				0BB97C081D18207700165EB9 /* ProfileViewController.swift in Sources */,
+				0BB97C041D181FB200165EB9 /* NewEntryViewController.swift in Sources */,
+				0BB97BE01D17FAAF00165EB9 /* MainScreenViewController.swift in Sources */,
+				0B73E9381D1887FE00273D5D /* PersistanceManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		0BB97BD01D17F7E100165EB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0BB97BD11D17F7E100165EB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0BB97BD41D17F7E100165EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0BB97BD51D17F7E100165EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0BB97BD71D17F7E100165EB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ephemeris - Daily Journal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bido.Ephemeris---Daily-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0BB97BD81D17F7E100165EB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Ephemeris - Daily Journal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Bido.Ephemeris---Daily-Journal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0BB97BBF1D17F7E000165EB9 /* Build configuration list for PBXProject "Ephemeris - Daily Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB97BD41D17F7E100165EB9 /* Debug */,
+				0BB97BD51D17F7E100165EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0BB97BD61D17F7E100165EB9 /* Build configuration list for PBXNativeTarget "Ephemeris - Daily Journal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0BB97BD71D17F7E100165EB9 /* Debug */,
+				0BB97BD81D17F7E100165EB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0BB97BBC1D17F7E000165EB9 /* Project object */;
+}

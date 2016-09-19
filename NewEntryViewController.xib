@@ -5,11 +5,14 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewEntryViewController" customModule="Ephemeris___Daily_Journal" customModuleProvider="target">
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewEntryViewController" customModule="Dayly" customModuleProvider="target">
             <connections>
-                <outlet property="backgroundImage" destination="0Rh-te-Ehn" id="pep-oo-GKF"/>
-                <outlet property="dateLabel" destination="gu7-PU-qKz" id="r68-Ej-mNH"/>
-                <outlet property="textView" destination="jZn-IH-fZl" id="ri0-gv-Ole"/>
+                <outlet property="backgroundImage" destination="0Rh-te-Ehn" id="wd2-ro-G3T"/>
+                <outlet property="dateLabel" destination="gu7-PU-qKz" id="V0R-Ku-00q"/>
+                <outlet property="imageOfButton" destination="b3V-QR-lHf" id="ssx-mr-Krs"/>
+                <outlet property="smallerView" destination="9gt-OK-LBd" id="17e-Oc-6IS"/>
+                <outlet property="submitButton" destination="vUI-2f-st8" id="qkJ-hp-pwl"/>
+                <outlet property="textView" destination="jZn-IH-fZl" id="SB9-yS-suJ"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -24,26 +27,45 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9gt-OK-LBd" userLabel="smallerview">
                     <rect key="frame" x="20" y="37" width="334" height="613"/>
                     <subviews>
-                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="jZn-IH-fZl">
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" semanticContentAttribute="forceLeftToRight" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b3V-QR-lHf">
+                            <rect key="frame" x="0.0" y="0.0" width="334" height="120"/>
+                            <color key="backgroundColor" red="0.16862745098039217" green="0.46274509803921571" blue="0.52941176470588236" alpha="0.83556490384615389" colorSpace="calibratedRGB"/>
+                        </imageView>
+                        <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" indicatorStyle="black" keyboardDismissMode="onDrag" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="jZn-IH-fZl">
                             <rect key="frame" x="0.0" y="157" width="334" height="456"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <fontDescription key="fontDescription" name="Cochin-BoldItalic" family="Cochin" pointSize="14"/>
-                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            <attributedString key="attributedText">
+                                <fragment content="Today, ">
+                                    <attributes>
+                                        <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                        <font key="NSFont" size="18" name="Arial-ItalicMT"/>
+                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" firstLineHeadIndent="35" tighteningFactorForTruncation="0.0"/>
+                                    </attributes>
+                                </fragment>
+                            </attributedString>
+                            <textInputTraits key="textInputTraits" autocapitalizationType="sentences" spellCheckingType="yes" keyboardAppearance="alert"/>
                         </textView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu7-PU-qKz">
-                            <rect key="frame" x="116" y="117" width="210" height="32"/>
-                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="22"/>
-                            <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                            <nil key="highlightedColor"/>
-                        </label>
                         <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vUI-2f-st8">
-                            <rect key="frame" x="37" y="118" width="99" height="30"/>
-                            <state key="normal" title="submit entry"/>
+                            <rect key="frame" x="21" y="118" width="99" height="30"/>
+                            <state key="normal" title="Submit Entry"/>
                             <connections>
-                                <action selector="submitButtonTapped:" destination="-1" eventType="touchUpInside" id="6KB-ZZ-JFl"/>
+                                <action selector="submitButtonTapped:" destination="-1" eventType="touchUpInside" id="6fS-yJ-1eo"/>
                             </connections>
                         </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kMl-qm-E8f">
+                            <rect key="frame" x="20" y="556" width="48" height="30"/>
+                            <state key="normal" title="Cancel"/>
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="-1" eventType="touchUpInside" id="zd6-XL-5hY"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gu7-PU-qKz">
+                            <rect key="frame" x="116" y="118" width="210" height="32"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" name="BodoniSvtyTwoOSITCTT-Book" family="Bodoni 72 Oldstyle" pointSize="22"/>
+                            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>

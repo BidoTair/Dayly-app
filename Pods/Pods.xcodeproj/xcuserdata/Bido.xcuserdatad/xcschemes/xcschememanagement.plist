@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>CalendarView-CalendarView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>CalendarView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Ephemeris - Daily Journal.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SwiftMoment.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>TextAttributes.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>41638D9B170F774D9F650F63B192526A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A21DCB995841FE970CCB507D94F822D9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A249CF9CC83EF996380469C8249B2013</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E3DAA2EF9B647D66C6E80E792F16B96F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EB026EA4D9B4D79670C0F784C3121ADD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

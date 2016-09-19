@@ -29,14 +29,14 @@ class PersistenceManager {
         NSKeyedArchiver.archiveRootObject(objectToSave, toFile: file)
     }
     
-    class func saveNSArray(arrayToSave: NSArray, fileName:String) {
+    class func saveNSDictionary(arrayToSave: NSDictionary, fileName:String) {
         let file = documentsDirectory().stringByAppendingPathComponent(fileName)
         NSKeyedArchiver.archiveRootObject(arrayToSave, toFile: file)
     }
     
-    class func loadNSArray(fileName:String) -> NSArray? {
+    class func loadNSDictionary(fileName:String) -> NSDictionary? {
         let file = documentsDirectory().stringByAppendingPathComponent(fileName)
         let result = NSKeyedUnarchiver.unarchiveObjectWithFile(file)
-        return result as? NSArray
+        return result as? NSDictionary
     }
 }

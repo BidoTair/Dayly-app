@@ -1,0 +1,6 @@
+framework module Pods_Ephemeris___Daily_Journal {
+  umbrella header "Pods-Ephemeris - Daily Journal-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -12,7 +12,7 @@ import UIKit
 
 class EntriesController {
     
-    var entriesArray: [Entry] = []
+    var entriesDictionary = [String: Entry]()
     class var sharedInstance: EntriesController {
         struct Static {
             static var instance: EntriesController?
@@ -27,25 +27,35 @@ class EntriesController {
     
     func addEntry(text: String?,imageofDay: UIImage?, backgroundimage: UIImage?, date: String?) {
         let entry = Entry(text: text, imageofDay: imageofDay, backgroudImage: backgroundimage, date: date)
-        entriesArray.append(entry)
+        entriesDictionary[date!] = entry
         
-        PersistenceManager.saveNSArray(entriesArray, fileName: "entriesSaved")
+        PersistenceManager.saveNSDictionary(entriesDictionary, fileName: "entriesSaved")
     }
     
     private func readEntriesFromMemory() {
-        let result = PersistenceManager.loadNSArray("placesVisited")
-        let entries = result as? [Entry]
-        if entries == nil {
-            self.entriesArray += []
-        }
-        else {
-            self.entriesArray += entries!
+        let result = PersistenceManager.loadNSDictionary("entriesSaved")
+        let entries = result as? [String: Entry]
+        if  let ent = entries {
+            for(date, entries) in ent {
+                entriesDictionary.updateValue(entries, forKey: date)
+            }
         }
     }
-    
-    func getPlaces() -> [Entry] {
+
+
+
+    func getEntries() -> [String: Entry] {
             self.readEntriesFromMemory()
-            return entriesArray
+            return entriesDictionary
         }
+    
+    func getnumberofEntries() -> Int {
+        self.readEntriesFromMemory()
+        var numberofentries = 0
+        for(_, _) in entriesDictionary {
+            numberofentries += 1
+        }
+        return numberofentries
+    }
         
 }

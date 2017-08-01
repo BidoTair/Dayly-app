@@ -4,13 +4,13 @@ Graph API in order to retrieve the user's profile picture and name. Through this
 
 
 
-### Prerequisites
+## Prerequisites
 
 iOS 8.3
 Only Works on iPhone
 
 
-### Installing
+## Installing
 
 Currently working on uploading the app to the AppStore but for now please feel free to run the code locally on Xcode.
 
